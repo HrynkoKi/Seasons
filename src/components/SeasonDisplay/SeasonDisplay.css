@@ -1,2 +1,27 @@
 .SeasonDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.SeasonDisplay__icon--left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.SeasonDisplay__icon--right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.winter {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: #fff;
+}
+
+.summer {
+    background: linear-gradient(to right, #fffc00, #ffffff);
 }
